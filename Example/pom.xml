@@ -8,15 +8,6 @@
     <artifactId>JerseyJRebelJetty</artifactId>
     <version>1.0</version>
 
-    <!--<repositories>
-        <repository>
-            <id>snapshot-repository.java.net</id>
-            <name>Java.net Snapshot Repository for Maven</name>
-            <url>https://maven.java.net/content/repositories/snapshots</url>
-            <layout>default</layout>
-        </repository>
-    </repositories>-->
-
     <dependencies>
         <!--Jetty Dependency-->
         <dependency>
