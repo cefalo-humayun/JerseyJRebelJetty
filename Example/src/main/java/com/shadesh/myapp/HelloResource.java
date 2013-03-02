@@ -36,8 +36,7 @@ public class HelloResource {
         return "<html>" +
                 "<title>Hello World HTML</title>" +
                 "<body>" +
-                "<h1>Hello World HTML JRebel Rules!</h1>" +
-                "<h2>Testing for JRebel</h2>" +
+                "<h1>Hello World HTML JRebel Rules5!</h1>" +
                 "</body>" +
                 "</html>";
     }

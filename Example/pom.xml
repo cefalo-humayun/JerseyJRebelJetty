@@ -6,7 +6,11 @@
 
     <groupId>JerseyJRebelJetty</groupId>
     <artifactId>JerseyJRebelJetty</artifactId>
+    <packaging>pom</packaging>
     <version>1.0</version>
+    <modules>
+        <module>test-module</module>
+    </modules>
 
     <dependencies>
         <!--Jetty Dependency-->
