@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+    <!-- 
+        Below are the common properties described. Note that some
+        of these requires special handling (lookup, naming 
+        conventions etc).
+    -->
+    <!-- mapped (lookup) with NPType in NP -->
+    <property name="Type" type="String">Article</property>
+    <!-- mapped to externalId (for EPiServer external system) in NP -->
+    <property name="EPiServerId" type="String">193</property>
+    <!-- mapped to id together with field dataVersion in NP -->
+    <property name="NewspilotId" type="String">96287.9</property>
+    <!-- mapped to createdUserId in NP -->
+    <property name="CreatedBy" type="Reference">
+        <reference email="john@doe.com" name="John Doe" isReusable="True"/>
+    </property>
+    <!-- mapped to updatedUserId -->
+    <property name="UpdatedBy" type="Reference">
+        <reference email="john@doe.com" name="John Doe" isReusable="True"/>
+    </property>
+    <!-- mapped to userdata field 'x' NP -->
+    <property name="Status" type="String">Published</property>
+    <!-- mapped to name in NP -->
+    <property name="Name" type="String">LHC switches off for two-year break</property>
+    <!-- mapped to createdDate in NP -->
+    <property name="CreatedDate" type="DateTime">2013-02-14T11:07:57.406+01:00</property>
+    <!-- mapped to updatedDate in NP -->
+    <property name="UpdatedDate" type="DateTime">2013-02-14T11:14:06.007+01:00</property>
+    <!-- mapped to sectionId in NP -->
+    <property name="MainSection" type="Reference">
+        <reference name="Sport News" fullPath="Sport/Sport News"/>
+    </property>
+    <!-- mapped to sections in NP -->
+    <property name="OtherSections" type="Reference">
+        <reference name="Soccer" fullPath="Sport/Soccer"/>
+        <reference name="World Sport" fullPath="Sport/World Sport"/>
+    </property>
+
+    <!-- 
+        Below are the "rest" of the fields of Newspilot article. These
+        can be used or not depending on specific EPiServer site.
+        Some of these could also be omitted completely by applying
+        configurable filter in mediator.
+    -->
+    <property name="privateUserId" type="String">0</property>
+    <property name="label" type="String">0</property>
+    <property name="jobId" type="String">73975</property>
+    <property name="note" type="String"/>
+    <property name="prio" type="String">3</property>
+    <property name="dataVersion" type="String">9</property>
+    <property name="backupVersion" type="String">0</property>
+    <property name="previewCRC" type="String">0</property>
+    <property name="thumbCRC" type="String">0</property>
+    <property name="departmentId" type="String">37</property>
+    <property name="organizationId" type="String">1</property>
+    <property name="respUserId" type="String">11</property>
+    <property name="productId" type="String">1</property>
+    <property name="mediaId" type="String">1</property>
+    <property name="pageId" type="String">0</property>
+    <property name="articleTypeId" type="String">4</property>
+    <property name="pubStart" type="DateTime">2013-02-15T00:00:00+01:00</property>
+    <property name="pubStop" type="DateTime">292278994-08-17T08:12:55.807+01:00</property>
+    <property name="dirtyFlag" type="String">0</property>
+    <property name="restoredFlag" type="String">0</property>
+    <property name="restoredDate" type="DateTime">1970-01-01T01:00:00+01:00</property>
+    <property name="mimetype" type="String">text/x-cps-xml</property>
+    <property name="textLength" type="String">1645</property>
+    <property name="textLengthMM" type="String">208</property>
+    <property name="charSizeFactor" type="String">0.0</property>
+    <property name="layoutProperties" type="String"/>
+    <property name="archiveId" type="String">0</property>
+    <property name="backgroundMaterial" type="String">false</property>
+    <property name="externalData" type="String"/>
+    <property name="originalArticleId" type="String">0</property>
+    <property name="masterArticleId" type="String">0</property>
+    <property name="coupledArticles" type="String"/>
+    <property name="description" type="String">This is a description</property>
+    <property name="externalSystemId" type="String">1047</property>
+    <property name="publicationDateId" type="String">19040</property>
+    <property name="secret" type="String">false</property>
+    <property name="articleFlags" type="HTML"><![CDATA[
+        <articleFlags>
+            <articleFlag>
+                <id>2599</id>
+                <entityFlagId>1064</entityFlagId>
+                <type>80</type>
+            </articleFlag>
+        </articleFlags>]]>
+    </property>
+    <property name="layoutStatus" type="String">NONE</property>
+    <property name="urlLink" type="String"/>
+    <property name="layoutType" type="String">Writer</property>
+    <property name="layoutTypeChanged" type="String">false</property>
+    <property name="slug" type="String">Preleadin goes here LHC switche </property>
+    <property name="pageSpanCount" type="String">0</property>
+    <property name="subProductId" type="String">1</property>
+    <property name="categories" type="HTML"><![CDATA[
+        <categories>
+            <category>
+                <path>Nyheter</path>
+                <id>111</id>
+                <name>Nyheter</name>
+            </category>
+        </categories>]]>
+    </property>
+    <property name="geodata" type="HTML"/>
+    <property name="tags" type="HTML"><![CDATA[
+        <tags>
+            <tag>
+                <name>Kambodja</name>
+                <category>LOCATION</category>
+                <ignored>false</ignored>
+                <unapproved>false</unapproved>
+            </tag>
+        </tags>]]>
+    </property>
+
+    <!-- 
+        Below are fields that are merged from the main ArticlePart
+        of the article (including textelements from npdoc resource).
+    -->
+    <property name="articlePartTypeId" type="String">1</property>
+    <!-- 
+        Please note that there may be circumstances where multiple ArticleParts with the
+        same articlePartTypeId is being sent. In this case the name attributes of the
+        npdoc fields should be enriched with a counter, e.g. headline-1, headline-2. In
+        order for the mediator to know to which ArticlePart each headline belongs the
+        ArticleParts sortOrder field should be used (i.e. the ArticlePart with the 
+        lowest sortOrder owns headline-1, the ArticlePart with the second lowest sortOrder
+        owns headline-2 and so forth).
+    -->
+    <property name="preleadin" type="HTML"><![CDATA[
+        <p>Preleadin goes here</p>]]>
+    </property>
+    <property name="madmansrow" type="HTML"><![CDATA[
+        <p>Madmansrow goes here</p>]]>
+    </property>
+    <property name="headline" type="String">LHC switches off for two-year break</property>
+    <property name="dateline" type="String">Kalmar</property>
+    <property name="leadin" type="HTML"><![CDATA[
+        <p>The <b>Large Hadron Collider</b> has turned off its particle beams ahead of a shut-down
+            period that will last two years.</p>]]>
+    </property>
+    <property name="body" type="HTML"><![CDATA[
+        <p>The particle accelerator is best known for its role in spotting the Higgs boson in late
+            2012.</p>
+        <p>But following technical faults shortly after it first switched on, the machine has never
+            been run at the full energies for which it was designed.</p>
+        <p>A programme of repairs and upgrades should allow that in late 2014. OLAS TESET</p>
+        <p>The LHC's beams were "dumped" early on Thursday morning, but it will take until Saturday
+            morning for the machine's 1,734 magnets to warm up to room temperature.</p>
+        <subheadline3>Then an unprecedented period of upgrade and repair - dubbed "Long Shutdown 1"
+            - will begin.</subheadline3>
+        <p>The machine ran at particle energies of 8 trillion electron-volts (TeV) in 2012, up from
+            the prior high point of 7TeV in 2011. But when the shutdown concludes, slated for the
+            end of November 2014, it should be set to run at 13TeV - far and away the highest-energy
+            collisions ever attempted by scientists.</p>
+        <p>The major work required is to upgrade the connections between the magnets, such that they
+            can handle the enormous electrical currents that may pass through them at higher
+            particle energies and in the event of faults such as the one in 2008.</p>
+        <p><i>But the shutdown maintenance</i> schedule also includes upgrades to all four of the
+                <u>LHC's detectors,</u> the shielding of electronics - even the ventilation system
+            of the 27km-long tunnel that houses the main accelerator ring.</p>
+        <p>The shutdown is due to conclude in late <strike>November 2014</strike>, after which the
+            system will be put through its paces and experiments are expected to resume in February
+            or March 2015.</p>]]>
+    </property>
+
+    <!-- 
+        Below are references to child entities from article (and main article part)
+    -->
+    <!-- 
+        The ArticleParts (other than the main ArticlePart(s)) must be dynamically mapped to 
+        a name EPiServer knows (e.g. ArticleParts with articlePartTypeId=2 are mapped to 
+        Factboxes).
+    -->
+    <property name="Factboxes" type="Reference">
+        <reference epiServerId="294" npId="34345.1"/>
+        <reference epiServerId="295" npId="34347.1"/>
+    </property>
+    <property name="Teasers" type="Reference">
+        <reference epiServerId="297" npId="34341.1"/>
+    </property>
+    <!-- mapped to Image in NP -->
+    <property name="Images" type="Reference">
+        <reference epiServerId="333" npId="90987.1"/>
+        <reference npId="22222.1"/>
+    </property>
+    <!-- mapped to bylines in NP -->
+    <property name="Authors">
+        <reference email="" name="Steve Stevenson" isReusable="False"/>
+        <reference email="john@doe.com" name="John Doe" isReusable="True"/>
+    </property>
+</page>

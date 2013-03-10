@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<article xmlns="http://www.infomaker.se/newspilot">
+    <link type="application/vnd.infomaker.newspilot.article+xml"
+          href="http://localhost:8080/olasrest/articles/96287" rel="self"/>
+    <link type="application/xml" href="http://localhost:8080/olasrest/articles/96287" rel="delete"/>
+    <link type="application/vnd.infomaker.newspilot.article+xml"
+          href="http://localhost:8080/olasrest/articles/96287" rel="update"/>
+    <link type="application/vnd.infomaker.newspilot.subProduct+xml"
+          href="http://localhost:8080/olasrest/subProducts/1" rel="subProduct"/>
+    <link type="application/vnd.infomaker.newspilot.articlePart+xml"
+          href="http://localhost:8080/olasrest/articles/96287/articleParts" rel="articleParts"/>
+    <link type="application/vnd.infomaker.newspilot.section+xml"
+          href="http://localhost:8080/olasrest/sections/87" rel="section"/>
+    <link type="application/vnd.infomaker.newspilot.section+xml"
+          href="http://localhost:8080/olasrest/articles/96287/sections" rel="sections"/>
+    <link type="application/vnd.infomaker.newspilot.deparment+xml"
+          href="http://localhost:8080/olasrest/departments/37" rel="department"/>
+    <link type="application/vnd.infomaker.newspilot.organization+xml"
+          href="http://localhost:8080/olasrest/organizations/1" rel="organization"/>
+    <link type="application/vnd.infomaker.newspilot.product+xml"
+          href="http://localhost:8080/olasrest/products/1" rel="product"/>
+    <link type="application/vnd.infomaker.newspilot.user+xml"
+          href="http://localhost:8080/olasrest/users/11" rel="createdUser"/>
+    <link type="application/vnd.infomaker.newspilot.user+xml"
+          href="http://localhost:8080/olasrest/users/11" rel="updatedUser"/>
+    <link type="application/vnd.infomaker.newspilot.articleType+xml"
+          href="http://localhost:8080/olasrest/articleTypes/4" rel="articleType"/>
+    <link type="application/vnd.infomaker.newspilot.userData+xml"
+          href="http://localhost:8080/olasrest/articles/96287/userData" rel="userData"/>
+    <NPType>Article</NPType>
+    <id>96287</id>
+    <name>LHC switches off for two-year break</name>
+    <createdDate>2013-02-14T11:07:57.406+01:00</createdDate>
+    <createdUserId>11</createdUserId>
+    <updatedDate>2013-02-14T11:14:06.007+01:00</updatedDate>
+    <updatedUserId>11</updatedUserId>
+    <privateUserId>0</privateUserId>
+    <statusId>6</statusId>
+    <label>0</label>
+    <jobId>73975</jobId>
+    <note/>
+    <prio>3</prio>
+    <dataVersion>9</dataVersion>
+    <backupVersion>0</backupVersion>
+    <previewCRC>0</previewCRC>
+    <thumbCRC>0</thumbCRC>
+    <departmentId>37</departmentId>
+    <organizationId>1</organizationId>
+    <respUserId>11</respUserId>
+    <sectionId>87</sectionId>
+    <productId>1</productId>
+    <mediaId>1</mediaId>
+    <pageId>0</pageId>
+    <articleTypeId>4</articleTypeId>
+    <pubStart>2013-02-15T00:00:00+01:00</pubStart>
+    <pubStop>292278994-08-17T08:12:55.807+01:00</pubStop>
+    <dirtyFlag>0</dirtyFlag>
+    <restoredFlag>0</restoredFlag>
+    <restoredDate>1970-01-01T01:00:00+01:00</restoredDate>
+    <mimetype>text/x-cps-xml</mimetype>
+    <textLength>1645</textLength>
+    <textLengthMM>208</textLengthMM>
+    <charSizeFactor>0.0</charSizeFactor>
+    <layoutProperties/>
+    <archiveId>0</archiveId>
+    <backgroundMaterial>false</backgroundMaterial>
+    <externalData/>
+    <originalArticleId>0</originalArticleId>
+    <masterArticleId>0</masterArticleId>
+    <coupledArticles/>
+    <description>This is a description</description>
+    <systemLinks>
+        <systemLink>
+            <NPType>ArticleSystemLink</NPType>
+            <id>574</id>
+            <entityId>102569</entityId>
+            <externalSystemId>1047</externalSystemId>
+            <externalId>5619.7</externalId>
+            <externalUser/>
+        </systemLink>
+    </systemLinks>
+    <externalSystemId>0</externalSystemId>
+    <publicationDateId>19040</publicationDateId>
+    <secret>false</secret>
+    <articleFlags/>
+    <layoutStatus>NONE</layoutStatus>
+    <sections/>
+    <urlLink/>
+    <layoutType>Writer</layoutType>
+    <layoutTypeChanged>false</layoutTypeChanged>
+    <slug>Preleadin goes here LHC switche </slug>
+    <pageSpanCount>0</pageSpanCount>
+    <subProductId>1</subProductId>
+    <categories>
+        <category>
+            <path>Nyheter</path>
+            <id>111</id>
+            <name>Nyheter</name>
+        </category>
+    </categories>
+    <geodata/>
+    <tags>
+        <tag>
+            <name>Kambodja</name>
+            <category>LOCATION</category>
+            <ignored>false</ignored>
+            <unapproved>false</unapproved>
+        </tag>
+    </tags>
+</article>
