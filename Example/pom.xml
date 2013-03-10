@@ -52,6 +52,13 @@
             <artifactId>jersey-json</artifactId>
             <version>1.11</version>
         </dependency>
+
+        <!-- xml parser dependency -->
+        <dependency>
+            <groupId>xom</groupId>
+            <artifactId>xom</artifactId>
+            <version>1.2.5</version>
+        </dependency>
     </dependencies>
     
 </project>
