@@ -14,7 +14,6 @@ import nu.xom.Elements;
 import nu.xom.Serializer;
 
 import java.io.File;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -41,7 +40,7 @@ public class ChildListName {
                 String value = "";
 
                 if (e.getChildCount() > 1 ){
-                    value = "<![CDATA[" + e.getChild(1).toXML() + "]]>";
+                    value =   e.getChild(1).toXML() ;
                 } else {
                     value = e.getValue();
                 }
@@ -55,9 +54,12 @@ public class ChildListName {
 
         }
 
-        /*for (Object key : map.keySet())  {
+        for (Object key : map.keySet())  {
+            if (map.get(key).contains("<")) {
+                map.put(key.toString(), "<![CDATA["+map.get(key)+"]]>");
+            }
             System.out.println( key.toString() + " : " + map.get(key));
-        }*/
+        }
 
         List<EPiServerProperty> list = new ArrayList<EPiServerProperty>();
         XMLMap xmlMap = new XMLMap();
@@ -105,10 +107,10 @@ public class ChildListName {
         System.out.println(ab.getLocalName());
 
         Elements elements = ab.getChildElements();
-        for (int i = 0; i < elements.size(); i++) {
+        /*for (int i = 0; i < elements.size(); i++) {
             Element abc = elements.get(i);
             System.out.println(abc.getLocalName() + " : " + abc.getValue());
-        }
+        }*/
 
         /*Serializer serializer = new Serializer(System.out);
         serializer.setIndent(4);
