@@ -45,6 +45,7 @@ public class HelloResource {
     @Consumes({"text/xml", "text/plain", MediaType.TEXT_HTML})
     @Produces(MediaType.TEXT_PLAIN)
     public String sayPostHello() {
+        System.out.println("From NetBeans-humayun0156");
         return "Hello World Post!";
     }
 }
