@@ -1,5 +1,6 @@
 package com.cefalo.models;
 
+import com.google.common.collect.ImmutableList;
 import nu.xom.Document;
 
 import java.net.URI;
@@ -12,6 +13,11 @@ public class NPArticle extends NPModelObject {
 
     public NPArticle(Document document) {
         super(document);
+    }
+
+    @Override
+    public ImmutableList<String> getExternalResourceList() {
+        return ImmutableList.of("CreatedUser", "UpdatedUser", "Section");
     }
 
     public URI getCreatedUserURI() {

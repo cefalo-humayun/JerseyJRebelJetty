@@ -1,6 +1,7 @@
 package com.cefalo.models;
 
 import com.google.common.base.Strings;
+import com.google.common.collect.ImmutableList;
 import nu.xom.Builder;
 import nu.xom.Document;
 import nu.xom.Element;
@@ -23,6 +24,10 @@ public class NPModelObject {
 
     public NPModelObject(Document document) {
         this.document = document;
+    }
+
+    public ImmutableList<String> getExternalResourceList() {
+        return ImmutableList.of();
     }
 
     protected String get(String tagName) {

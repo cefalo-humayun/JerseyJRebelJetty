@@ -1,0 +1,76 @@
+<article xmlns="http://www.infomaker.se/newspilot">
+    <link type="application/vnd.infomaker.newspilot.article+xml" href="http://192.168.1.127:8080/webservice/articles/12" rel="self"/>
+    <link type="application/xml" href="http://192.168.1.127:8080/webservice/articles/12" rel="delete"/>
+    <link type="application/vnd.infomaker.newspilot.article+xml" href="http://192.168.1.127:8080/webservice/articles/12" rel="update"/>
+    <link type="application/vnd.infomaker.newspilot.subProduct+xml" href="http://192.168.1.127:8080/webservice/subProducts/1" rel="subProduct"/>
+    <link type="application/vnd.infomaker.newspilot.articlePart+xml" href="http://192.168.1.127:8080/webservice/articles/12/articleParts" rel="articleParts"/>
+    <link type="application/vnd.infomaker.newspilot.section+xml" href="http://192.168.1.127:8080/webservice/sections/9" rel="section"/>
+    <link type="application/vnd.infomaker.newspilot.section+xml" href="http://192.168.1.127:8080/webservice/articles/12/sections" rel="sections"/>
+    <link type="application/vnd.infomaker.newspilot.deparment+xml" href="http://192.168.1.127:8080/webservice/departments/2" rel="department"/>
+    <link type="application/vnd.infomaker.newspilot.organization+xml" href="http://192.168.1.127:8080/webservice/organizations/1" rel="organization"/>
+    <link type="application/vnd.infomaker.newspilot.product+xml" href="http://192.168.1.127:8080/webservice/products/1" rel="product"/>
+    <link type="application/vnd.infomaker.newspilot.user+xml" href="http://192.168.1.127:8080/webservice/users/16" rel="createdUser"/>
+    <link type="application/vnd.infomaker.newspilot.user+xml" href="http://192.168.1.127:8080/webservice/users/16" rel="updatedUser"/>
+    <link type="application/vnd.infomaker.newspilot.userData+xml" href="http://192.168.1.127:8080/webservice/articles/12/userData" rel="userData"/>
+    <NPType>Article</NPType>
+    <id>12</id>
+    <name>TestJob - humayun</name>
+    <createdDate>2013-03-12T15:58:22.851+06:00</createdDate>
+    <createdUserId>16</createdUserId>
+    <updatedDate>2013-03-19T18:02:58.582+06:00</updatedDate>
+    <updatedUserId>16</updatedUserId>
+    <privateUserId>0</privateUserId>
+    <statusId>6</statusId>
+    <label>0</label>
+    <jobId>4</jobId>
+    <note/>
+    <prio>1</prio>
+    <dataVersion>12</dataVersion>
+    <backupVersion>0</backupVersion>
+    <previewCRC>0</previewCRC>
+    <thumbCRC>0</thumbCRC>
+    <departmentId>2</departmentId>
+    <organizationId>1</organizationId>
+    <respUserId>16</respUserId>
+    <sectionId>9</sectionId>
+    <productId>1</productId>
+    <mediaId>2</mediaId>
+    <pageId>0</pageId>
+    <articleTypeId>0</articleTypeId>
+    <pubStart>2013-03-11T16:56:00+06:00</pubStart>
+    <pubStop>292278994-08-17T13:12:55.807+06:00</pubStop>
+    <dirtyFlag>0</dirtyFlag>
+    <restoredFlag>0</restoredFlag>
+    <restoredDate>1970-01-01T06:00:00+06:00</restoredDate>
+    <mimetype>text/x-cps-xml</mimetype>
+    <textLength>91</textLength>
+    <textLengthMM>0</textLengthMM>
+    <charSizeFactor>0.0</charSizeFactor>
+    <layoutProperties/>
+    <archiveId>0</archiveId>
+    <backgroundMaterial>false</backgroundMaterial>
+    <externalData/>
+    <originalArticleId>0</originalArticleId>
+    <masterArticleId>0</masterArticleId>
+    <coupledArticles/>
+    <description/>
+    <systemLinks/>
+    <externalSystemId>0</externalSystemId>
+    <publicationDateId>0</publicationDateId>
+    <secret>false</secret>
+    <articleFlags/>
+    <layoutStatus>NONE</layoutStatus>
+    <sections>
+        <section>6</section>
+        <section>8</section>
+    </sections>
+    <urlLink/>
+    <layoutType>Writer</layoutType>
+    <layoutTypeChanged>false</layoutTypeChanged>
+    <slug>Here is pre lead invalue Testin</slug>
+    <pageSpanCount>0</pageSpanCount>
+    <subProductId>1</subProductId>
+    <categories/>
+    <geodata/>
+    <tags/>
+</article>
